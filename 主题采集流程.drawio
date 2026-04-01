@@ -1,0 +1,210 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6">
+  <diagram name="第 1 页" id="oPNGOACJ3sTvYWfHVGJp">
+    <mxGraphModel dx="1418" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="InGLkOC5NTmi82GRKz96-52" parent="1" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;strokeWidth=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="410" width="910" x="1110" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-54" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-53" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-3" edge="1" parent="1" source="aAeM11RCZ2wtwk3Lnbq6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aAeM11RCZ2wtwk3Lnbq6-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="输入ASIN" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-6" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="获取asin对应反查词库" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-10" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="LLM对反查词进行归类，标准化输出" vertex="1">
+          <mxGeometry height="70" width="120" x="490" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-8" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aAeM11RCZ2wtwk3Lnbq6-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-7" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="开始" vertex="1">
+          <mxGeometry height="60" width="100" x="20" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-12" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="获取一个标准化反查词" vertex="1">
+          <mxGeometry height="70" width="120" x="650" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-14" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-11" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="使用&quot;反查词+paper plates&quot;在亚马逊上进行搜索" vertex="1">
+          <mxGeometry height="60" width="120" x="810" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-16" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="分析第一页中的相关产品占比" vertex="1">
+          <mxGeometry height="60" width="120" x="970" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-18" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-19" connectable="0" parent="InGLkOC5NTmi82GRKz96-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-32" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-34" connectable="0" parent="InGLkOC5NTmi82GRKz96-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.225" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="相关产品占比是否达到阈值" vertex="1">
+          <mxGeometry height="100" width="230" x="1130" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-21" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="检查其它类目下是否有相关产品" vertex="1">
+          <mxGeometry height="60" width="120" x="1410" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-23" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-24" connectable="0" parent="InGLkOC5NTmi82GRKz96-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1704" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-42" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-43" connectable="0" parent="InGLkOC5NTmi82GRKz96-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="0.0154" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-20" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="相关产品占比是否达到阈值" vertex="1">
+          <mxGeometry height="100" width="230" x="1580" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#E6D0DE;" value="不记录主题：当前主题没有经过市场验证" vertex="1">
+          <mxGeometry height="60" width="120" x="1870" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-68" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-67" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="获取数据表现好的产品" vertex="1">
+          <mxGeometry height="60" width="120" x="1185" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#FF0000;" value="记录主题：当前主题经过市场验证，且销量/价格较高" vertex="1">
+          <mxGeometry height="60" width="120" x="1410" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-44" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-45" connectable="0" parent="InGLkOC5NTmi82GRKz96-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.1667" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-48" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-49" connectable="0" parent="InGLkOC5NTmi82GRKz96-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.04" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-31" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="数据表现好的产品占比是否达到阈值" vertex="1">
+          <mxGeometry height="100" width="230" x="1130" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-36" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-38" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="获取数据表现好的产品" vertex="1">
+          <mxGeometry height="60" width="120" x="1870" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;strokeColor=#FF0000;" value="记录主题：该主题在纸盘市场处于蓝海期" vertex="1">
+          <mxGeometry height="60" width="120" x="1870" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-39" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-40" connectable="0" parent="InGLkOC5NTmi82GRKz96-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.16" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-47" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-46" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-50" connectable="0" parent="InGLkOC5NTmi82GRKz96-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="0.04" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-41" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="数据表现好的产品占比是否达到阈值" vertex="1">
+          <mxGeometry height="100" width="230" x="1580" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-69" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-67" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="获取数据表现好的产品" vertex="1">
+          <mxGeometry height="60" width="120" x="1635" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-55" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="InGLkOC5NTmi82GRKz96-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-56" connectable="0" parent="InGLkOC5NTmi82GRKz96-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.3844" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-58" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-59" connectable="0" parent="InGLkOC5NTmi82GRKz96-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2571" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-53" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="是否还有反查词" vertex="1">
+          <mxGeometry height="100" width="230" x="1450" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-61" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="InGLkOC5NTmi82GRKz96-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-57" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="队列中是否还有asin" vertex="1">
+          <mxGeometry height="100" width="230" x="1450" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-60" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="结束" vertex="1">
+          <mxGeometry height="60" width="100" x="1515" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-62" edge="1" parent="1" source="InGLkOC5NTmi82GRKz96-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" target="aAeM11RCZ2wtwk3Lnbq6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-63" connectable="0" parent="InGLkOC5NTmi82GRKz96-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.3106" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="InGLkOC5NTmi82GRKz96-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="存入asin队列" vertex="1">
+          <mxGeometry height="60" width="120" x="1410" y="-120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="DW_2QcD4cRRxi0870s1p">
+    <mxGraphModel dx="1406" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4f3IjlMsha0VM5LDc06i-7" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="若干反查词" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-5" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="130" width="396" x="354" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-2" parent="4f3IjlMsha0VM5LDc06i-5" style="rounded=0;whiteSpace=wrap;html=1;" value="LLM进行粗略的过滤" vertex="1">
+          <mxGeometry height="60" width="120" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-4" parent="4f3IjlMsha0VM5LDc06i-5" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="纯颜色词（black sliver xxx）、单个词（ghost、web）、IP词（harry potter）、错词（alloween）、纯数字词（11th birthday）、不适合在餐盘上的图案（mini shovel）" vertex="1">
+          <mxGeometry height="130" width="250" x="146" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-10" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="去重" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-12" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LLM分析反查词得到若干主题" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-13" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="主题去重" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-19" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="主题+plates/backdrop/decoration/flage/door cover分别在亚马逊搜索结果第一页进行爬虫" vertex="1">
+          <mxGeometry height="60" width="234" x="297" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-15" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-21" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-22" connectable="0" parent="4f3IjlMsha0VM5LDc06i-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.3204" y="3" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-32" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="plates产品数&amp;lt;=5 &amp;amp;&amp;amp; 至少两个产品个数&amp;gt;5" vertex="1">
+          <mxGeometry height="80" width="249" x="289.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-20" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="记录当前主题为长尾主题" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-27" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-29" connectable="0" parent="4f3IjlMsha0VM5LDc06i-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-34" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4f3IjlMsha0VM5LDc06i-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="860" />
+              <mxPoint x="270" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-23" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="是否还有主题" vertex="1">
+          <mxGeometry height="80" width="249" x="289.5" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-33" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-30" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="记录当前主题为常规主题" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-36" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="结束" vertex="1">
+          <mxGeometry height="60" width="100" x="364" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-38" edge="1" parent="1" source="4f3IjlMsha0VM5LDc06i-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4f3IjlMsha0VM5LDc06i-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4f3IjlMsha0VM5LDc06i-37" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="开始" vertex="1">
+          <mxGeometry height="60" width="100" x="364" y="-20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

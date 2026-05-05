@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="TsjMVh77UIIvQbs2lwBw">
-    <mxGraphModel dx="1406" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1223" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="JYmDPMis6LMs-BZdeKw7-4" parent="JYmDPMis6LMs-BZdeKw7-3" style="rounded=0;whiteSpace=wrap;html=1;" value="LLM进行粗略的过滤" vertex="1">
           <mxGeometry height="60" width="120" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="JYmDPMis6LMs-BZdeKw7-5" parent="JYmDPMis6LMs-BZdeKw7-3" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="纯颜色词（black sliver xxx）、单个词（ghost、web）、IP词（harry potter）、错词（alloween）、纯数字词（11th birthday）、不适合在餐盘上的图案（mini shovel）" vertex="1">
+        <mxCell id="JYmDPMis6LMs-BZdeKw7-5" parent="JYmDPMis6LMs-BZdeKw7-3" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="纯颜色词（black sliver）、范词（ghost、web）、错词（alloween）、纯数字词（11th birthday）、不适合在餐盘上的图案（mini shovel）。&lt;div&gt;合并同义表达。&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="250" x="146" as="geometry" />
         </mxCell>
         <mxCell id="JYmDPMis6LMs-BZdeKw7-6" edge="1" parent="1" source="JYmDPMis6LMs-BZdeKw7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JYmDPMis6LMs-BZdeKw7-9" value="">
@@ -37,7 +37,7 @@
         <mxCell id="JYmDPMis6LMs-BZdeKw7-10" edge="1" parent="1" source="JYmDPMis6LMs-BZdeKw7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JYmDPMis6LMs-BZdeKw7-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JYmDPMis6LMs-BZdeKw7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="主题去重" vertex="1">
+        <mxCell id="JYmDPMis6LMs-BZdeKw7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="主题排序去重" vertex="1">
           <mxGeometry height="60" width="120" x="394" y="370" as="geometry" />
         </mxCell>
         <mxCell id="JYmDPMis6LMs-BZdeKw7-12" edge="1" parent="1" source="JYmDPMis6LMs-BZdeKw7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JYmDPMis6LMs-BZdeKw7-30" value="">

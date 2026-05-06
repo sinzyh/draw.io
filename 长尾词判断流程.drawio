@@ -37,7 +37,7 @@
         <mxCell id="JYmDPMis6LMs-BZdeKw7-10" edge="1" parent="1" source="JYmDPMis6LMs-BZdeKw7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JYmDPMis6LMs-BZdeKw7-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JYmDPMis6LMs-BZdeKw7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="主题排序去重" vertex="1">
+        <mxCell id="JYmDPMis6LMs-BZdeKw7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="主题删除party后缀、排序、去重" vertex="1">
           <mxGeometry height="60" width="120" x="394" y="370" as="geometry" />
         </mxCell>
         <mxCell id="JYmDPMis6LMs-BZdeKw7-12" edge="1" parent="1" source="JYmDPMis6LMs-BZdeKw7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JYmDPMis6LMs-BZdeKw7-30" value="">
@@ -144,7 +144,7 @@
         <mxCell id="JYmDPMis6LMs-BZdeKw7-34" edge="1" parent="1" source="JYmDPMis6LMs-BZdeKw7-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JYmDPMis6LMs-BZdeKw7-43" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JYmDPMis6LMs-BZdeKw7-35" parent="1" style="whiteSpace=wrap;html=1;" value="忽略主题中介词、party后缀" vertex="1">
+        <mxCell id="JYmDPMis6LMs-BZdeKw7-35" parent="1" style="whiteSpace=wrap;html=1;" value="忽略主题中介词" vertex="1">
           <mxGeometry height="60" width="120" x="885" y="470" as="geometry" />
         </mxCell>
         <mxCell id="JYmDPMis6LMs-BZdeKw7-36" edge="1" parent="1" source="JYmDPMis6LMs-BZdeKw7-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JYmDPMis6LMs-BZdeKw7-35" value="">

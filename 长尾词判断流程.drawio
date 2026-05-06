@@ -19,7 +19,7 @@
         <mxCell id="JYmDPMis6LMs-BZdeKw7-4" parent="JYmDPMis6LMs-BZdeKw7-3" style="rounded=0;whiteSpace=wrap;html=1;" value="LLM进行粗略的过滤" vertex="1">
           <mxGeometry height="60" width="120" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="JYmDPMis6LMs-BZdeKw7-5" parent="JYmDPMis6LMs-BZdeKw7-3" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="纯颜色词（black sliver）、范词（ghost、web）、错词（alloween）、纯数字词（11th birthday）、不适合在餐盘上的图案（mini shovel）。&lt;div&gt;合并同义表达。&lt;/div&gt;" vertex="1">
+        <mxCell id="JYmDPMis6LMs-BZdeKw7-5" parent="JYmDPMis6LMs-BZdeKw7-3" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1. 剔除纯颜色词（black sliver）、纯数字词（11th birthday）、不适合在餐盘上的图案（mini shovel）、范词（ghost、web）、错词（alloween）。&lt;div&gt;2. 合并同义表达。&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="250" x="146" as="geometry" />
         </mxCell>
         <mxCell id="JYmDPMis6LMs-BZdeKw7-6" edge="1" parent="1" source="JYmDPMis6LMs-BZdeKw7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="JYmDPMis6LMs-BZdeKw7-9" value="">
@@ -220,6 +220,9 @@
         </mxCell>
         <mxCell id="JYmDPMis6LMs-BZdeKw7-53" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="其他类别总和&amp;gt;10且至少有一个产品数量≥7" vertex="1">
           <mxGeometry height="80" width="290" x="640" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="sEfzKsPGLMGLG0-OMJFt-1" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="满足下列条件之一，判断为长尾主题：&lt;br&gt;1. plates产品数&amp;lt;=5 and 至少有两个类目的产品数量&amp;gt;=5；&lt;br&gt;2. plates产品数&amp;lt;=5 and 其它类目总和&amp;gt;10 and 至少一个类目数量&amp;gt;=7" vertex="1">
+          <mxGeometry height="90" width="330" x="990" y="760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -84,7 +84,7 @@
             <mxPoint x="454" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JYmDPMis6LMs-BZdeKw7-21" connectable="0" parent="JYmDPMis6LMs-BZdeKw7-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+        <mxCell id="JYmDPMis6LMs-BZdeKw7-21" connectable="0" parent="JYmDPMis6LMs-BZdeKw7-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
           <mxGeometry relative="1" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -95,6 +95,11 @@
               <mxPoint x="310" y="1190" />
               <mxPoint x="310" y="590" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEfzKsPGLMGLG0-OMJFt-2" connectable="0" parent="JYmDPMis6LMs-BZdeKw7-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.2769" y="-1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JYmDPMis6LMs-BZdeKw7-23" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" value="是否还有主题" vertex="1">
